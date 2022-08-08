@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %}
+
+{% block contenido %} 
+{% load static %}
+<div class="p-5 bg-light" style="margin-top: 20px;margin-bottom:20px ;">
+
+    <div class="container">
+        <h4 class="display-5">Ruta Back-end</h4>
+        <hr class="my-2">
+        <p>si te gusta el Back-end te puedes guiar por esta ruta de aprendizaje</p>
+        <img src="{% static 'backend.jpeg'  %}" alt="" style="width:600px;height:600px ">
+        <h4 class="display-5" style="margin-top:20px ;">Ruta Front-end</h4>
+        <hr class="my-2">
+        <p>si te gusta el Front-end te puedes guiar por esta ruta de aprendizaje</p>
+        <img src="{% static 'frontend.jpeg'  %}" alt="" style="width:600px;height:600px ">
+        <h4 class="display-5"style="margin-top:20px ;">Ruta ciencia de datos</h4>
+        <hr class="my-2">
+        <p>Por ultimo te damos una ultima alternativa que es la ciencia de datos</p>
+        <img src="{% static 'data.jpeg'  %}" alt="" style="width:600px;height:600px ">
+    </div>
+
+
+
+</div>
+{% endblock %}

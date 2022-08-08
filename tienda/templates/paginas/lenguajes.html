@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block titulo %} Inicio {% endblock %}
+
+{% block contenido %}
+{% load static %}
+
+<div class="p-5 bg-light" style="margin-top: 20px;margin-bottom:20px ;">
+    <div class="container">
+        <h1 class="display-3">¿Por Donde debo Comenzar?</h1>
+        <hr class="my-2">
+
+        <p>Aprender a programar es un objetivo que se plantea mucha gente y que no todos alcanzan. Hay que tener claro
+            que aprender programación no es tarea de un día ni de una semana: aprender programación requiere al menos
+            varios meses y, si hablamos de programación a nivel profesional, varios años. No queremos con esto desanimar
+            a nadie: en un plazo de unos pocos días podemos estar haciendo nuestros primeros programas y ver los
+            primeros resultados</p>
+        <p>lo primero es escoger un lenguaje de programacion para aprender todo lo relacionado sobre este, a
+            continuacion estaremos dando informacion sobre algunos lenguajes.</p>
+
+
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body ">
+                    <i class="fab fa-brands fa-js" style="font-size: 40px;color:rgb(202, 202, 18);"> JavaScript </i>
+                    <hr class="my-2">
+                    <p class="card-text">Es un lenguaje de programación ligero, interpretado, o compilado
+                        justo-a-tiempo (just-in-time) con funciones de primera clase. Si bien es más conocido como
+                        un lenguaje de scripting (secuencias de comandos) para páginas web, y es usado en muchos
+                        entornos fuera del navegador, tal como Node.js.</p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem; ">
+                <div class="card-body ">
+                    <i class="fab fa-brands fa-java" style="font-size: 40px;color:rgb(26, 116, 181);"> JavaScript </i>
+                    <hr class="my-2">
+                    <p class="card-text ">Es un lenguaje de programación ampliamente utilizado para codificar
+                        aplicaciones web. Ha sido una opción popular entre los desarrolladores durante más de dos
+                        décadas, es un lenguaje multiplataforma,orientado a objetos y centrado en la red que se puede
+                        utilizar como una plataforma. </p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="col-4">
+            <div class="card" style="width: 18rem; ">
+                <div class="card-body ">
+                    <i class="fab fa-brands fa-python" style="font-size: 40px;color:rgb(176, 181, 26);"> Python </i>
+                    <hr class="my-2">
+                    <p class="card-text">Python es un lenguaje de programación de alto nivel que se utiliza para
+                        desarrollar aplicaciones de todo tipo. A diferencia de otros lenguajes como Java o .NET, se
+                        trata de un lenguaje interpretado, es decir, que no es necesario compilarlo para ejecutar las
+                        aplicaciones escritas en Python</p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+{% endblock %}
